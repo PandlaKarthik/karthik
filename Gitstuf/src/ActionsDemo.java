@@ -20,7 +20,7 @@ public class ActionsDemo {
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
 		driver.findElement(By.cssSelector("[value='Go']")).click();
 		
-		//------To move specific element----
+		//------To move specific element----  
 		a.moveToElement(move).contextClick().build().perform();
 	}
 
